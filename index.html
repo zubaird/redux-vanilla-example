@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.js"></script>
+    <!-- <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script> -->
+    <!-- Redux.createStore() -->
+    <script defer src="./dist/bundle.js"></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="ui four column grid">
+        <div class="three column row">
+            <div class="column"></div>
+            <div class="column">
+                <div class="ui placeholder segment">
+                    <div class="ui icon header">
+                        REDUX /w Plain 'ole JS
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="three column row">
+            <div class="column"></div>
+            <div class="column">
+                <div id="todolist">
+                    <div class="ui label"><i class="trash alternate icon"></i>
+                        <span id="uselessCounter">0</span>
+                    </div>
+                    <div class="ui large buttons">
+                        <button id="more" class="ui button">More</button>
+                        <div class="or"></div>
+                        <button id="fewer" class="ui button">Fewer</button>
+                    </div>
+                    <div class="ui inverted segment">
+                        <div class="ui icon input">
+                            <input id='newTask' type="text" placeholder="Stuff todo...">
+                            <button id='addTask'><i class="tasks icon"></i></button>
+                        </div>
+                        <div id="list" class="ui inverted relaxed divided list">
+                            Nothing to do . . .
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column"></div>
+        </div>
+    </div>
+</body>
+</html>
