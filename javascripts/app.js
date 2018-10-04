@@ -1,6 +1,6 @@
 // /* eslint-env browser, es6 */
 import { createStore } from 'redux';
-import { combineReducers } from 'redux';
+// import { combineReducers } from 'redux';
 // Useless counter elements
 const moreButtonElement = document.getElementById('more');
 const fewerButtonElement = document.getElementById('fewer');
