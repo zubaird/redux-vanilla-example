@@ -17,7 +17,7 @@ Everything is loaded for you, this example includes Redux.
  - The ACTION is what to do.
  - The REDUCER is how to do it. It is registered to the Redux STORE when the store is created
  - Custom UpdateTheDOM function is what do when there is a state change
- - SUBSCRIBE (store.subscirb)
+ - SUBSCRIBE (store.subscribe)
 
 **Part 2: Create todo list**
 
